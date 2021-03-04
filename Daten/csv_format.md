@@ -17,4 +17,20 @@ Es werden keine Überschriften verwendet.
 
 enthalten in erkannte.csv
 
+Die Daten enthalten alle durch die Auswertungssoftware erkannten Überholvorgänge mit den entsprechenden Daten bezüglich Ort und Datum.
+Bisher ist die Reihenfolge der Spalten noch für die folgende Software von Bedeutung.
+
+| Spaltenname | Beispieldaten | Spalteninhalt |
+| --- | --- | --- |
+| Abstand | 156.43 | gemessener Abstand in Zentimeter - Durchschnittswert der gemessenen Abstandswerte während sich das Auto links neben dem Fahrrad befindet  - dabei ist der Abstand zwischen Fahrradmitte und Hauptfläche des Autos angegeben |
+| Zeit |
+| Datum |
+| Lange |
+| Breite |
+| Geschwindigkeit Fahrrad |
+| Geschwindigkeit KFZ |
+| Lange KFZ |
+| checksumme |
+
+
 ## Überholvorgänge mit Adressen
