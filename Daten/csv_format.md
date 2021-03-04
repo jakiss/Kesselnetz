@@ -7,6 +7,7 @@ GPS-Daten liegen im GPRMC-Format vor, wie sie durch das GPS-Modul übermittelt w
 Es werden keine Überschriften verwendet.
 
 | Spalteninhalt | Beispieldaten | Zweck der Daten |
+|---|---|---|
 | Zeit in Sekunden seit Systemstart | 158.689 | Genaue Bestimmung der Überholvorgänge |
 | Messwert vorderer Ultraschallsensor in Zentimeter | 12050.34 | Bestimmung der Überholvorgänge |
 | Messwert hinterer Ultraschallsensor in Zentimeter | 145.65 | Bestimmung der Überholvorgänge |
