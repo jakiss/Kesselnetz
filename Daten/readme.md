@@ -35,6 +35,8 @@ Bisher ist die Reihenfolge der Spalten noch für die folgende Software von Bedeu
 
 ## Überholvorgänge mit Adressen
 
+Adressen werden über die API von opencage (https://opencagedata.com/)  aus den GPS-Koordinaten bestimmt.
+
 | Spaltenname | Beispieldaten | Spalteninhalt |
 | --- | --- | --- |
 | Number | 5 | Nummer des Überholvorgangs |
