@@ -43,8 +43,8 @@ Adressen werden über die API von opencage (https://opencagedata.com/)  aus den 
 | Distance | 164.507 | Gemessener Abstand in Zentimeter - Durchschnitsswert der gemessenen Abstandswerte während sich das Auto links neben dem Fahrrad befindet - dabei ist der Abstand zwischen Fahrradmitte und Hauptfläche des Autos angegeben |
 | LAT | 48.6799 | Breitengrad angegeben in Grad, wenn südlich vom Äquator, dann negative Werte |
 | LON | 9.11712 | Längengrad angegeben in Grad, wenn westlich vom Nullmeridian, dann negative Werte |
-| LAT_corrected |  | noch nicht enthalten und noch nicht implementiert |
-| LON_corrected |  | noch nicht enthalten und noch nicht implementiert |
+| LAT_corrected |  | korrigierter Breitengrad (Vgl. LAT) |
+| LON_corrected |  | korrigierter Längengrad (Vgl. LON) |
 | speed | | bisher enthalten, Default-Wert steht auf 0, noch nicht vollständig implementiert|
 | date | 270820 | Datum im Format DDMMYY oder DMMYY|
 | date_format | 2020-08-27 | YYYY-MM-DD |
