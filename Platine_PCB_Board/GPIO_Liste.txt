@@ -1,0 +1,7 @@
+GPIO16 (36) LED gelb
+GPIO18 (12) LED grün
+GPIO20 (38) LED rot
+GPIO25 (22) Trigger
+GPIO24 (18) Echo Vorne
+GPIO23 (16) Echo Hinten
+GPIO6  (31) Taster

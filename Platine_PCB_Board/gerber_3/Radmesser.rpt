@@ -1,0 +1,618 @@
+## Footprint report - date 02.01.2021 21:04:58
+## Created by Pcbnew version kicad (5.0.2)-1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 121.461367 54.016999
+lower_right_corner 220.998633 125.690354
+$EndBOARD
+
+$MODULE "Uvorne1"
+reference "Uvorne1"
+value "HC-SR04"
+footprint "HC-SR04:XCVR_HC-SR04"
+attribut none
+position 148.730000 100.650000  orientation 344.00
+layer front
+$PAD "2"
+Shape Kreis Layer both
+position -1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Kreis Layer both
+position  1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Kreis Layer both
+position  3.810000  0.000001  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position -3.810000 -0.000001  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Uvorne1
+
+$MODULE "Uhinten2"
+reference "Uhinten2"
+value "HC-SR04"
+footprint "HC-SR04:XCVR_HC-SR04"
+attribut none
+position 193.730000 100.650000  orientation 16.00
+layer front
+$PAD "1"
+Shape Kreis Layer both
+position -3.810000  0.000002  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Kreis Layer both
+position  3.810000 -0.000002  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Kreis Layer both
+position  1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Kreis Layer both
+position -1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Uhinten2
+
+$MODULE "Drot2"
+reference "Drot2"
+value "LED"
+footprint "LEDs:LED_D5.0mm"
+attribut none
+position 166.624000 99.822000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rechteck Layer both
+position  0.000000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Kreis Layer both
+position  2.540000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Drot2
+
+$MODULE "Dgrun1"
+reference "Dgrun1"
+value "LED"
+footprint "LEDs:LED_D5.0mm"
+attribut none
+position 159.512000 100.076000  orientation 180.00
+layer front
+$PAD "2"
+Shape Kreis Layer both
+position  2.540000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rechteck Layer both
+position  0.000000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Dgrun1
+
+$MODULE "GPS1"
+reference "GPS1"
+value "GY-GPS6MV2"
+footprint "HC-SR04:GY-GPS6MV"
+attribut none
+position 188.722000 84.582000  orientation 180.00
+layer front
+$PAD "2"
+Shape Kreis Layer both
+position -1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Kreis Layer both
+position  1.270000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Kreis Layer both
+position  3.810000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position -3.810000  0.000000  size  1.530000  1.530000  orientation 0.00
+drill  1.020000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  GPS1
+
+$MODULE "J1"
+reference "J1"
+value "Raspberry_Pi_2_3"
+footprint "RaspPi:PinSocket_2x20_P2.54mm_Vertical"
+attribut none
+position 194.564000 91.948000  orientation 90.00
+layer back
+$PAD "40"
+Shape Oval Layer both
+position -2.540000 -48.260000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "39"
+Shape Oval Layer both
+position  0.000000 -48.260000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "38"
+Shape Oval Layer both
+position -2.540000 -45.720000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "37"
+Shape Oval Layer both
+position  0.000000 -45.720000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "36"
+Shape Oval Layer both
+position -2.540000 -43.180000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "35"
+Shape Oval Layer both
+position  0.000000 -43.180000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "34"
+Shape Oval Layer both
+position -2.540000 -40.640000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "33"
+Shape Oval Layer both
+position  0.000000 -40.640000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "32"
+Shape Oval Layer both
+position -2.540000 -38.100000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "31"
+Shape Oval Layer both
+position  0.000000 -38.100000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "30"
+Shape Oval Layer both
+position -2.540000 -35.560000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "29"
+Shape Oval Layer both
+position  0.000000 -35.560000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "28"
+Shape Oval Layer both
+position -2.540000 -33.020000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "27"
+Shape Oval Layer both
+position  0.000000 -33.020000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "26"
+Shape Oval Layer both
+position -2.540000 -30.480000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "25"
+Shape Oval Layer both
+position  0.000000 -30.480000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "24"
+Shape Oval Layer both
+position -2.540000 -27.940000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "23"
+Shape Oval Layer both
+position  0.000000 -27.940000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "22"
+Shape Oval Layer both
+position -2.540000 -25.400000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "21"
+Shape Oval Layer both
+position  0.000000 -25.400000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "20"
+Shape Oval Layer both
+position -2.540000 -22.860000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "19"
+Shape Oval Layer both
+position  0.000000 -22.860000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "18"
+Shape Oval Layer both
+position -2.540000 -20.320000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "17"
+Shape Oval Layer both
+position  0.000000 -20.320000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "16"
+Shape Oval Layer both
+position -2.540000 -17.780000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Oval Layer both
+position  0.000000 -17.780000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Oval Layer both
+position -2.540000 -15.240000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Oval Layer both
+position  0.000000 -15.240000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Oval Layer both
+position -2.540000 -12.700000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Oval Layer both
+position  0.000000 -12.700000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Oval Layer both
+position -2.540000 -10.160000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Oval Layer both
+position  0.000000 -10.160000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position -2.540000 -7.620000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position  0.000000 -7.620000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position -2.540000 -5.080000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position  0.000000 -5.080000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position -2.540000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position -2.540000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rechteck Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "U3"
+reference "U3"
+value "DS18B20"
+footprint "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm"
+attribut none
+position 185.674000 88.138000  orientation 90.00
+layer front
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.000000  1.000000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  1.270000  size  1.000000  1.000000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rechteck Layer both
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U3
+
+$MODULE "SW1"
+reference "SW1"
+value "SW_DIP_x01"
+footprint "Capacitors_ThroughHole:CP_Radial_D4.0mm_P1.50mm"
+attribut none
+position 146.812000 88.138000  orientation 0.00
+layer front
+$PAD "2"
+Shape Kreis Layer both
+position  1.500000  0.000000  size  1.200000  1.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rechteck Layer both
+position  0.000000  0.000000  size  1.200000  1.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  SW1
+
+$MODULE "R1"
+reference "R1"
+value "1k"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 161.290000 85.344000  orientation 180.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "510"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 173.736000 85.344000  orientation 180.00
+layer front
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R3"
+reference "R3"
+value "1k"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 157.988000 82.042000  orientation 0.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "R4"
+reference "R4"
+value "510"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 144.780000 82.042000  orientation 0.00
+layer front
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "R5"
+reference "R5"
+value "100"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 170.434000 98.298000  orientation 0.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R5
+
+$MODULE "R6"
+reference "R6"
+value "100"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 170.434000 101.854000  orientation 0.00
+layer front
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R6
+
+$MODULE "R7"
+reference "R7"
+value "4,7k"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 174.244000 88.646000  orientation 180.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R7
+
+$MODULE "R8"
+reference "R8"
+value "10k"
+footprint "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+attribut none
+position 161.290000 88.646000  orientation 180.00
+layer front
+$PAD "1"
+Shape Kreis Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R8
+
+$EndDESCRIPTION

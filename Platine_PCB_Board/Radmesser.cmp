@@ -1,0 +1,99 @@
+Cmp-Mod V01 Created by PcbNew   date = 31.01.2020 00:28:07
+
+BeginCmp
+TimeStamp = 5E2EC2E8
+Path = /5E2E54D6
+Reference = Drot2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC2D6
+Path = /5E2E5363
+Reference = Dgrun1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC2FC
+Path = /5E2E2E35
+Reference = GPS1;
+ValeurCmp = GY-GPS6MV2;
+IdModule  = HC-SR04:GY-GPS6MV;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC33A
+Path = /5E2DA375
+Reference = J1;
+ValeurCmp = Raspberry_Pi;
+IdModule  = RaspPi:PinSocket_2x20_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC350
+Path = /5E2DA58E
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC366
+Path = /5E2DA64F
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC37C
+Path = /5E2DA7CE
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC392
+Path = /5E2DA7D4
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC3A8
+Path = /5E2E5592
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC3BE
+Path = /5E2E5626
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC3DC
+Path = /5E2E1096
+Reference = Uhinten2;
+ValeurCmp = HC-SR04;
+IdModule  = HC-SR04:XCVR_HC-SR04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E2EC3FA
+Path = /5E2E123D
+Reference = Uvorne1;
+ValeurCmp = HC-SR04;
+IdModule  = HC-SR04:XCVR_HC-SR04;
+EndCmp
+
+EndListe
