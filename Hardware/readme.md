@@ -1,6 +1,6 @@
 # Hardware
 
-## Materialliste
+## Materialliste allgemein
 
 | Komponentenname | Zahl pro Bausatz | Anmerkung |
 | --- | --- | --- |
@@ -16,4 +16,7 @@
 | GPS-Modul | 1 | GY-GPS6MV2 mit Antenne |
 | Temperatursensor | 1 | DS18B20 |
 | Stiftleiste | 1 | 1x4 Pins RM 2,54mm |
+
+
+## Materialliste bei Montage in 3D-gedruckter Box (zusätzlich)
 
