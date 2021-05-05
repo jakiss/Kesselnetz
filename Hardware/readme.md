@@ -37,6 +37,8 @@ Powerbank wird nicht benötigt
 
 # Montagereihenfolge
 
+| Arbeitsschritt | zu verlötendes Bauteil |
+| --- | --- |
 | 1. | Wiederstände löten |
 | 1.1 | 510 Ohm R2 und R4 |
 | 1.2 | 1 kOhm R1 und R3 |
