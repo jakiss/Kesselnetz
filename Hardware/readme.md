@@ -49,7 +49,8 @@ Powerbank wird nicht benötigt
 | 2. | LEDS löten, links grün, mitte rot, rechts blau |
 | 3. | Buchsenleiste für Raspberry Pi anlöten, Raspberry Pi mit Steckerleiste versehen, Raspberry Pi erst zum Schluss aufstecken |
 | 4. | Temperatursensor DS18B20 anlöten |
-| 4. | GPS-Modul mit 4 Pin-Sitftleiste anlöten, Antenne befestigen | 
+| 5. | GPS-Modul mit 4 Pin-Sitftleiste anlöten, Antenne befestigen | 
+| 6. | Ultraschallsensoren anlöten |
 
 ## zusätzliche Schritte bei 3D-Druck-Box 
 
@@ -60,3 +61,13 @@ Powerbank wird nicht benötigt
 | 3. | Schraubklemmenblock verlöten |
 | 4. | Schalter an den rechten Schraubklemmenblock anschliessen |
 | 5. | Batteriehalter an den linken Schraubklemmenblock anschliessen | 
+
+# Software
+
+| Arbeitsschritt | zu installierende Software-Komponente |
+| --- | --- |
+| 1. | Betriebssystem installieren - Raspbian wird mit Hilfe von Win32DiskImager auf die Micro-SD-Karte gespielt |
+| 2. | Schnittstellen freigeben - in den Einstellungen werden I2C und die W-1 Schnittstellen freigegeben |
+| 3. | Python-Code auf dem Raspberry Pi speichern |
+| 4. | Test der Komponenten über die Testsoftware |
+| 5. | Auto-Start definieren - in der Datei /etc/rc.local den Eintrag python3/Dateispeicherort/Dateiname & hinzufügen |
