@@ -17,6 +17,7 @@
 | Temperatursensor | 1 | DS18B20 |
 | Stiftleiste | 1 | 1x4 Pins RM 2,54mm |
 | LED | 3 | grün, rot, blau jeweils 5mm |
+| Powerbank | 1 | Kapazität von 5000 mAh empfohlen |
 
 
 ## Materialliste bei Montage in 3D-gedruckter Box (zusätzlich)
@@ -31,4 +32,6 @@
 | Steckerleiste | 1 | 1x6 Pin RM 2,54 mm |
 | Wippschalter | 1 | |
 | Schraubklemmblock | 2 | 2 polig RM 5,08 mm |
+
+Powerbank wird nicht benötigt
 
