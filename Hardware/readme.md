@@ -32,10 +32,13 @@
 | Steckerleiste | 1 | 1x6 Pin RM 2,54 mm |
 | Wippschalter | 1 | |
 | Schraubklemmblock | 2 | 2 polig RM 5,08 mm |
+| Litze und Adernendhülsen | | Anschluss zwischen Schraubklemmblock und Schalter und Batteriehalter|
 
 Powerbank wird nicht benötigt
 
 # Montagereihenfolge
+
+## allgemeine Montagereihenfolge
 
 | Arbeitsschritt | zu verlötendes Bauteil |
 | --- | --- |
@@ -44,7 +47,16 @@ Powerbank wird nicht benötigt
 | 1.2 | 1 kOhm R1 und R3 |
 | 1.3 | 100 Ohm R5, R6 und R9 |
 | 2. | LEDS löten, links grün, mitte rot, rechts blau |
-| 3. | Buchsenleiste für Raspberry Pi anlöten, Raspberry Pi mit Steckerleiste versehen |
+| 3. | Buchsenleiste für Raspberry Pi anlöten, Raspberry Pi mit Steckerleiste versehen, Raspberry Pi erst zum Schluss aufstecken |
 | 4. | Temperatursensor DS18B20 anlöten |
-| 4. | GPS-Modul mit 4 Pin-Sitftleiste anlöten | 
+| 4. | GPS-Modul mit 4 Pin-Sitftleiste anlöten, Antenne befestigen | 
 
+## zusätzliche Schritte bei 3D-Druck-Box 
+
+| Arbeitsschritt | zu verlötendes Bauteil |
+| --- | --- |
+| 1. | Batterielademodul mit 6-Pol-Stiftleiste verlöten |
+| 2. | Micro-USB-Board mit 5-Pol-Stiftleiste verlöten |
+| 3. | Schraubklemmenblock verlöten |
+| 4. | Schalter an den rechten Schraubklemmenblock anschliessen |
+| 5. | Batteriehalter an den linken Schraubklemmenblock anschliessen | 
