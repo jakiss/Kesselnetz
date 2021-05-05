@@ -15,8 +15,8 @@
 | Widerstand | 3 | 100 Ohm |
 | GPS-Modul | 1 | GY-GPS6MV2 mit Antenne |
 | Temperatursensor | 1 | DS18B20 |
-| Stiftleiste | 1 | 1x4 Pins RM 2,54mm |
-| LED | 3 | grün, rot, blau jeweils 5mm |
+| Stiftleiste | 1 | 1x4 Pins RM 2,54 mm |
+| LED | 3 | grün, rot, blau jeweils 5 mm |
 | Powerbank | 1 | Kapazität von 5000 mAh empfohlen |
 
 
@@ -34,4 +34,15 @@
 | Schraubklemmblock | 2 | 2 polig RM 5,08 mm |
 
 Powerbank wird nicht benötigt
+
+# Montagereihenfolge
+
+| 1. | Wiederstände löten |
+| 1.1 | 510 Ohm R2 und R4 |
+| 1.2 | 1 kOhm R1 und R3 |
+| 1.3 | 100 Ohm R5, R6 und R9 |
+| 2. | LEDS löten, links grün, mitte rot, rechts blau |
+| 3. | Buchsenleiste für Raspberry Pi anlöten, Raspberry Pi mit Steckerleiste versehen |
+| 4. | Temperatursensor DS18B20 anlöten |
+| 4. | GPS-Modul mit 4 Pin-Sitftleiste anlöten | 
 
